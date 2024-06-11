@@ -10,7 +10,68 @@
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <header class="border-bottom py-2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <a href="#">
+                        <img src="img/bbccdd_box_logo.svg" alt="bbccdd">
+                    </a>
+                </div>
+                <div class="col-6">
+                    <form action="#" class="input-group">
+                        <input type="search" placeholder="Введите поисковый запрос" class="form-control">
+                        <input type="submit" value="Найти" class="btn btn-outline-secondary">
+                    </form>
+                </div>
+                <div class="col-4">
+                    <div class="d-flex justify-content-end">
+                        <div class="dropdown me-2">
+                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">Русский/RUB</button>
+                            <form class="dropdown-menu p-3">
+                                <div class="mb-3">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioLanguage" id="flexRadioLanguage1" checked>
+                                        <label class="form-check-label" for="flexRadioLanguage1">Русский</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioLanguage" id="flexRadioLanguage2">
+                                        <label class="form-check-label" for="flexRadioLanguage2">Английский</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioLanguage" id="flexRadioLanguage3">
+                                        <label class="form-check-label" for="flexRadioLanguage3">Корейский</label>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioCurrency" id="flexRadioCurrency1" checked>
+                                        <label class="form-check-label" for="flexRadioCurrency1">RUB</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioCurrency" id="flexRadioCurrency2">
+                                        <label class="form-check-label" for="flexRadioCurrency2">USD</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioCurrency" id="flexRadioCurrency3">
+                                        <label class="form-check-label" for="flexRadioCurrency3">KRW</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Личный кабинет</button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
     
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
