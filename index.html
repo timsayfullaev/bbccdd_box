@@ -21,7 +21,7 @@
                 <div class="col-6">
                     <form action="#" class="input-group">
                         <input type="search" placeholder="Введите поисковый запрос" class="form-control">
-                        <input type="submit" value="Найти" class="btn btn-outline-secondary">
+                        <input type="submit" value="Найти" class="btn btn-outline-primary">
                     </form>
                 </div>
                 <div class="col-4">
@@ -60,11 +60,26 @@
                             </form>
                         </div>
                         <div class="dropdown">
-                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Личный кабинет</button>
+                            <button class="btn dropdown-toggle position-relative" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Личный кабинет
+                                <span class="position-absolute top-0 start-100 translate-middle p-1 bg-danger border border-light rounded-circle">
+                                    <span class="visually-hidden">Новые сообщения</span>
+                                </span>
+                            </button>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><h6 class="dropdown-header">Депозит: 0,00 $</h6></li>
+                                <li><a class="dropdown-item" href="#">Админ панель</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Уведомления <span class="badge text-bg-danger">4</span></a></li>
+                                <li><a class="dropdown-item" href="#">Заказы</a></li>
+                                <li><a class="dropdown-item" href="#">Платежи</a></li>
+                                <li><a class="dropdown-item" href="#">Адреса доставки</a></li>
+                                <li><a class="dropdown-item" href="#">Получатели</a></li>
+                                <li><a class="dropdown-item" href="#">Профиль</a></li>
+                                <li><a class="dropdown-item" href="#">Инструкции</a></li>
+                                <li><a class="dropdown-item" href="#">Служба поддержки</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Выйти</a></li>
                             </ul>
                         </div>
                     </div>
