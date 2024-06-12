@@ -135,7 +135,7 @@
                                     <div class="col-md"><small>Поставщик 1</small></div>
                                     <div class="col-md"><small>~1-5 дней</small></div>
                                     <div class="col-md"><small>~40%</small></div>
-                                    <div class="col-md"><small>8 000 $ <a href="#">Хочу СП</a></small></div>
+                                    <div class="col-md"><small class="d-flex align-items-center">8 000 $ <button type="button" class="btn btn-link btn-sm" data-bs-toggle="modal" data-bs-target="#spModal">Хочу СП</button></small></div>
                                     <div class="col-md">
                                         <a href="#" class="btn btn-primary btn-sm">Перейти к прайсу</a>
                                     </div>
@@ -144,7 +144,7 @@
                                     <div class="col-md"><small>Поставщик 2</small></div>
                                     <div class="col-md"><small>~2-3 недели</small></div>
                                     <div class="col-md"><small>~76%</small></div>
-                                    <div class="col-md"><small>6 500 $ <a href="#">Хочу СП</a></small></div>
+                                    <div class="col-md"><small class="d-flex align-items-center">6 500 $ <button type="button" class="btn btn-link btn-sm" data-bs-toggle="modal" data-bs-target="#spModal">Хочу СП</button></small></div>
                                     <div class="col-md">
                                         <a href="#" class="btn btn-primary btn-sm">Перейти к прайсу</a>
                                     </div>
@@ -153,7 +153,7 @@
                                     <div class="col-md"><small>Поставщик 3</small></div>
                                     <div class="col-md"><small>~3-6 месяцев</small></div>
                                     <div class="col-md"><small>~95%</small></div>
-                                    <div class="col-md"><small>2 000 $ <a href="#">Хочу СП</a></small></div>
+                                    <div class="col-md"><small class="d-flex align-items-center">2 000 $ <button type="button" class="btn btn-link btn-sm" data-bs-toggle="modal" data-bs-target="#spModal">Хочу СП</button></small></div>
                                     <div class="col-md">
                                         <a href="#" class="btn btn-primary btn-sm">Перейти к прайсу</a>
                                     </div>
@@ -182,7 +182,7 @@
                                     <div class="col-md"><small>Поставщик 1</small></div>
                                     <div class="col-md"><small>~1-5 дней</small></div>
                                     <div class="col-md"><small>~40%</small></div>
-                                    <div class="col-md"><small>8 000 $ <a href="#">Хочу СП</a></small></div>
+                                    <div class="col-md"><small class="d-flex align-items-center">8 000 $ <button type="button" class="btn btn-link btn-sm" data-bs-toggle="modal" data-bs-target="#spModal">Хочу СП</button></small></div>
                                     <div class="col-md">
                                         <a href="#" class="btn btn-primary btn-sm">Перейти к прайсу</a>
                                     </div>
@@ -191,7 +191,7 @@
                                     <div class="col-md"><small>Поставщик 3</small></div>
                                     <div class="col-md"><small>~3-6 месяцев</small></div>
                                     <div class="col-md"><small>~95%</small></div>
-                                    <div class="col-md"><small>2 000 $ <a href="#">Хочу СП</a></small></div>
+                                    <div class="col-md"><small class="d-flex align-items-center">2 000 $ <button type="button" class="btn btn-link btn-sm" data-bs-toggle="modal" data-bs-target="#spModal">Хочу СП</button></small></div>
                                     <div class="col-md">
                                         <a href="#" class="btn btn-primary btn-sm">Перейти к прайсу</a>
                                     </div>
@@ -220,7 +220,7 @@
                                     <div class="col-md"><small>Поставщик 3</small></div>
                                     <div class="col-md"><small>~3-6 месяцев</small></div>
                                     <div class="col-md"><small>~95%</small></div>
-                                    <div class="col-md"><small>2 000 $ <a href="#">Хочу СП</a></small></div>
+                                    <div class="col-md"><small class="d-flex align-items-center">2 000 $ <button type="button" class="btn btn-link btn-sm" data-bs-toggle="modal" data-bs-target="#spModal">Хочу СП</button></small></div>
                                     <div class="col-md">
                                         <a href="#" class="btn btn-primary btn-sm">Перейти к прайсу</a>
                                     </div>
@@ -236,6 +236,24 @@
     <footer class="py-5">
 
     </footer>
+
+    <div class="modal fade" id="spModal" tabindex="-1" aria-labelledby="spModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="spModalLabel">На какую сумму вы хотите закупиться?</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="number" class="form-control">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отмена</button>
+                    <button type="button" class="btn btn-primary">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </div>
     
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
